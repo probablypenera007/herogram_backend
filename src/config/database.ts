@@ -1,5 +1,5 @@
 import { Pool } from 'pg';
-import { createClient, RedisClientType } from 'redis';
+import { createClient, RedisClientType } from '@redis/client';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
